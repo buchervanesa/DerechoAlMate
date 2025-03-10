@@ -19,3 +19,184 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+select {
+  background-color: var(--background) !important;
+  color: var(--foreground) !important;
+  border: 2px solid gray;
+  color: #0a0a0a;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 2px;
+}
+
+select:hover {
+  background-color: gray !important;
+  color: white !important;
+}
+/* globals.css */
+
+/* globals.css */
+
+.header-container {
+  position: relative;
+  height: 550px;
+}
+
+.header-container .background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.header-container .content-wrapper {
+  position: absolute;
+  top: 0%;
+  left: 0;
+  width: 100%;
+  padding-top: 194px; /* Ajuste para evitar que se solape con el navbar */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* globals.css */
+
+.header-container .envios {
+  position: absolute;
+  top: 0px; /* Ajusta la distancia desde el top para que quede justo debajo del navbar */
+  left: 0;
+  right: 0; /* Extiende el cuadro hasta el borde derecho */
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  font-size: 0.875rem; /* Tamaño pequeño */
+  text-align: center; /* Centra el texto dentro del cuadro */
+}
+
+
+.header-container .main-message {
+  position: relative;
+  z-index: 10;
+  top:98px
+
+}
+
+.main-message h2 {
+  font-size: 3rem;
+  font-weight: 900; /* O también puedes usar 800 o 900 */
+  color: white;
+}
+
+.main-message p {
+  margin-top: 1rem;
+  font-size: 1.125rem;
+  color: white;
+}
+
+
+.footer-message {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 12px 0;
+  font-size: 0.875rem; /* Tamaño pequeño */
+  text-align: center;
+}
+
+
+
+.header-logo-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.logo-left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px; 
+  background-color: transparent; 
+}
+
+/* Logo centrado */
+.logo-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent; 
+}
+.logo-container {
+  position: absolute;
+  top: 7%; 
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+.logo-container img {
+  width: 25vw; /* 25% del ancho de la pantalla */
+  max-width: 300px; /* Máximo tamaño */
+  min-width: 100px; /* Mínimo tamaño */
+  height: auto;
+}
+
+@media (max-width: 640px) {
+  .logo-container img {
+    width: 55vw; /* Aumenta en pantallas más chicas */
+  }
+}
+
+/* aca es todo lo de contacto */
+.contact-info {
+  @apply flex justify-evenly items-center space-x-8 bg-zinc-800 py-3;
+}
+
+.contact-info > div {
+  @apply text-center;
+}
+
+.contact-info h3 {
+  @apply text-xl font-semibold mb-4;
+}
+
+.contact-info p {
+  @apply text-lg;
+}
+/* styles/globals.css o tu archivo de estilos globales */
+
+.icon-ubi {
+  width: 40px;      /* Ajusta el tamaño de la imagen */
+  height: 40px;     /* Ajusta el tamaño de la imagen */
+  margin-bottom: 10px;  /* Espacio debajo de la imagen */
+  display: block;   /* Asegura que la imagen sea un bloque */
+  margin-left: auto;
+  margin-right: auto; /* Centra la imagen */
+}
+/* Estilos generales */
+.contact-info {
+  display: flex;
+  justify-content: center; /* Centra el contenido */
+  align-items: center; /* Alinea verticalmente */
+  gap: 20px; /* Espacio entre elementos */
+  flex-wrap: wrap; /* Permite que los elementos bajen si no entran */
+}
+
+/* Para Mobile: apilar en columna */
+@media (max-width: 768px) {
+  .contact-info {
+    flex-direction: column; /* Cambia a columna */
+    text-align: center; /* Centra el texto */
+  }
+}
+
+
+/*Aca es todo lo de productos*/
+.product-image {
+  max-width: 200px;  /* Tamaño máximo de ancho */
+  max-height: 200px; /* Tamaño máximo de alto */
+  object-fit: cover;  /* Mantiene proporción y recorta lo que sobre */
+  border-radius: 8px; /* Bordes redondeados opcionales */
+}
+
