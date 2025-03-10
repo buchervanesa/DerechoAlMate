@@ -175,21 +175,22 @@ select:hover {
   margin-right: auto; /* Centra la imagen */
 }
 /* Estilos generales */
-.contact-info {
+/* .contact-info {
   display: flex;
-  justify-content: center; /* Centra el contenido */
-  align-items: center; /* Alinea verticalmente */
-  gap: 20px; /* Espacio entre elementos */
-  flex-wrap: wrap; /* Permite que los elementos bajen si no entran */
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+} */
+.contact-info{
+  padding: 10px;
 }
-
 /* Para Mobile: apilar en columna */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .contact-info {
-    flex-direction: column; /* Cambia a columna */
-    text-align: center; /* Centra el texto */
-  }
-}
+    flex-direction: column;
+    text-align: center;   }
+} */
 
 
 /*Aca es todo lo de productos*/
