@@ -43,7 +43,7 @@ export default function Hero() {
 
       {/* Sección de Grabado al pie */}
       <section className="footer-message">
-        <p>¡Graba tu mate como más te guste! Personaliza tu mate con el grabado que prefieras y hazlo único. ¡Hazlo con nosotros!</p>
+        <p>¡Graba tu mate como más te guste! Personaliza tu mate con el grabado que prefieras y hazlo único. </p>
       </section>
     </div>
   );

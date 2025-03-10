@@ -107,6 +107,14 @@ select:hover {
 
 
 
+/* Ajuste de padding en pantallas pequeñas */
+@media (max-width: 600px) {
+  .footer-message {
+    padding: 10px; /* Aumenta el padding en mobile */
+  }
+}
+
+
 .header-logo-container {
   position: relative;
   width: 100%;
@@ -149,7 +157,7 @@ select:hover {
 }
 
 /* aca es todo lo de contacto */
-.contact-info {
+/* .contact-info {
   @apply flex justify-evenly items-center space-x-8 bg-zinc-800 py-3;
 }
 
@@ -163,8 +171,8 @@ select:hover {
 
 .contact-info p {
   @apply text-lg;
-}
-/* styles/globals.css o tu archivo de estilos globales */
+} */
+
 
 .icon-ubi {
   width: 40px;      /* Ajusta el tamaño de la imagen */
@@ -174,26 +182,28 @@ select:hover {
   margin-left: auto;
   margin-right: auto; /* Centra la imagen */
 }
-/* Estilos generales */
-/* .contact-info {
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
-  gap: 20px; 
-  flex-wrap: wrap; 
+
+/* .contact-info{
+  padding: 10px;
 } */
-.contact-info{
+.contact-info {
+  background-color: #514a4a36;
+  display: flex;
+  justify-content: center; /* Alinea los elementos en el centro */
+  gap: 20px; /* Espacio entre los elementos */
   padding: 10px;
 }
-/* Para Mobile: apilar en columna */
-/* @media (max-width: 768px) {
-  .contact-info {
-    flex-direction: column;
-    text-align: center;   }
-} */
+
+.contact-info div {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra el contenido dentro de cada div */
+  text-align: center;
+}
 
 
-/*Aca es todo lo de productos*/
+
+
 .product-image {
   max-width: 200px;  /* Tamaño máximo de ancho */
   max-height: 200px; /* Tamaño máximo de alto */

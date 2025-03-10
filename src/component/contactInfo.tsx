@@ -18,7 +18,7 @@ const ContactInfo: React.FC = () => {
             height={40}
             className="icon-ubi"
           />
-          <h3>Contacto</h3>
+         
           <p>3764 127995</p>
         </a>
       </div>
@@ -32,8 +32,8 @@ const ContactInfo: React.FC = () => {
           height={40}
           className="icon-ubi"
         />
-        <h3>Ubicación</h3>
-        <p>Posadas, Misiones</p>
+       
+        <p>Posadas Misiones</p>
       </div>
 
       <div>
@@ -49,7 +49,7 @@ const ContactInfo: React.FC = () => {
             height={40}
             className="icon-ubi"
           />
-          <h3>Instagram</h3>
+       
           @derechoalmate
         </a>
       </div>
