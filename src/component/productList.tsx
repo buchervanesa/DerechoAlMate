@@ -13,7 +13,7 @@ export default function ProductList() {
     { id: 3, name: "Mate de Cuero", price: 23900, oldPrice: "", image: "/cuero3.jpeg", category: "Mates", subcategory: "Cuero", subSubcategory: "Imperiales" },
     // { id: 4, name: "Mate Torpedo Cuero", price: 42000, oldPrice: 47000, image: "/MateNegro.jpeg", category: "Mates", subcategory: "Cuero", subSubcategory: "Torpedos" },
     { id: 5, name: "Bombilla de Acero Inox", price: 5700, oldPrice: "", image: "/BombillaAcero.jpeg", category: "Accesorios", subcategory: "", subSubcategory: "" },
-    { id: 6, name: "Matera EcoCuero", price: 11000, oldPrice: "ingresa pronto", image: "/Matera.jpeg", category: "Materas", subcategory: "", subSubcategory: "" },
+    { id: 6, name: "Matera EcoCuero", price: 11000, oldPrice: "", image: "/Matera.jpeg", category: "Materas", subcategory: "", subSubcategory: "" },
     { id: 7, name: "yerbero y azucarero", price:6000, oldPrice: 7000, image: "/yer.jpeg", category: "Accesorios", subcategory: "", subSubcategory: "" },
     { id: 8, name: "Termo Original Termolar", price: 56000, oldPrice: 7000, image: "/Termo.jpeg", category: "Termos", subcategory: "", subSubcategory: "" },
     { id: 9, name: "Mate Imperial Algarrobo 2", price: 19500, oldPrice: "", image: "/imperialAlrayas.jpeg", category: "Mates", subcategory: "Algarrobo", subSubcategory: "Imperiales" },
